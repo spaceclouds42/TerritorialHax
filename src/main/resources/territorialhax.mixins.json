@@ -2,7 +2,9 @@
   "required": true,
   "package": "us.spaceclouds42.territorialhax.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [],
+  "mixins": [
+    "LockableHudMixin_DeObfuscate"
+  ],
   "injectors": {
     "defaultRequire": 1
   }

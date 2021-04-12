@@ -16,7 +16,7 @@
   "icon": "assets/territorialhax/icon.png",
   "environment": "client",
   "entrypoints": {
-    "main": [
+    "client": [
       {
         "value": "us.spaceclouds42.territorialhax.Common::INSTANCE"
       }
