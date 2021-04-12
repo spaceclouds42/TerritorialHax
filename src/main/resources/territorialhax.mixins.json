@@ -5,7 +5,8 @@
   "mixins": [
     "LockableHudMixin_DeObfuscate",
     "LockUtilsMixin_NoSlow",
-    "LockUtilsMixin_NoSlow$Calculations"
+    "LockUtilsMixin_NoSlow$Calculations",
+    "UseBlockHandlerMixin_MasterKey"
   ],
   "injectors": {
     "defaultRequire": 1

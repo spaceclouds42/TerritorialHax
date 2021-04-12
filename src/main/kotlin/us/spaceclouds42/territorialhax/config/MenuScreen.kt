@@ -37,6 +37,16 @@ object MenuScreen : SpruceScreen(ekho("TerritorialHax") { style { green; underli
             )
         )
 
+        list.addSingleOptionEntry(
+            SpruceBooleanOption(
+                "Master Key",
+                { Config.options.masterKey },
+                { Config.options.masterKey = it },
+                ekho("Become the master key! Open any locked chests.") { style { darkGreen } },
+                true,
+            )
+        )
+
         this.addChild(list)
     }
 }
