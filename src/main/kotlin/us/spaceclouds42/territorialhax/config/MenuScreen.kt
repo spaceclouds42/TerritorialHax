@@ -27,6 +27,16 @@ object MenuScreen : SpruceScreen(ekho("TerritorialHax") { style { green; underli
             )
         )
 
+        list.addSingleOptionEntry(
+            SpruceBooleanOption(
+                "No Slow",
+                { Config.options.noSlow },
+                { Config.options.noSlow = it },
+                ekho("Locks can't slow you down!") { style { darkAqua } },
+                true,
+            )
+        )
+
         this.addChild(list)
     }
 }

@@ -3,7 +3,9 @@
   "package": "us.spaceclouds42.territorialhax.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "LockableHudMixin_DeObfuscate"
+    "LockableHudMixin_DeObfuscate",
+    "LockUtilsMixin_NoSlow",
+    "LockUtilsMixin_NoSlow$Calculations"
   ],
   "injectors": {
     "defaultRequire": 1
